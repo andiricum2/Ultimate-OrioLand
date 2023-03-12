@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "ultimateol",
+  "version": "${version}",
+
+  "name": "Ultimate OrioLand",
+  "description": "Un mod que contiene de TODO!",
+  "authors": [
+    "andiricum2", "OrioLand"
+  ],
+  "contact": {
+    "homepage": "https://mod.orioland.com/",
+    "sources": "https://github.com/andiricum2/Ultimate-OrioLand"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.orioland.ultimateol.UltimateOrioLand"
+    ],
+    "client": [
+      "com.orioland.ultimateol.UltimateOrioLandClient"
+    ]
+  },
+  "mixins": [
+    "ultimateol.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.14",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
