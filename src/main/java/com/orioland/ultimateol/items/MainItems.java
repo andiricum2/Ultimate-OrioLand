@@ -19,6 +19,14 @@ public class MainItems implements ModInitializer {
             new Identifier("ultimateol", "orita"),
             new Item(new FabricItemSettings().maxCount(64)));
 
+    // https://fabricmc.net/wiki/tutorial:tools
+    // public class PICKAXENAME extends PickaxeItem {
+    // public PICKAXENAME(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
+    //     super(material, attackDamage, attackSpeed, settings);
+    // }
+}
+
+
 
     public static void registerMainItems() {
         UltimateOrioLand.LOGGER.debug("Registering Mod Items");
